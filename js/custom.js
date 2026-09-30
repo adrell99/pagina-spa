@@ -1,0 +1,1 @@
+$(".service").waypoint(function(direction){ if(direction == "down"){ $("nav").addClass("sticky_nav"); }else{ $("nav").removeClass("sticky_nav"); } }); $(function(){ $('.single_circle').circlechart(); }); var portfolio = document.querySelector('.portfolio_tap'); var mixer = mixitup(portfolio); $('.ber_icon').click(function(){ $('.nav_links').addClass('Mobile-top'); })
