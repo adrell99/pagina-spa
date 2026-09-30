@@ -1,18 +1,5 @@
+@media (max-width: 768px) {
 
-@media (max-width: 768px){
-    
-    .ber_icon {
-        display: block;
-        margin-left: 15px;
-        font-size: 20px;
-        margin-top: 10px;
-        background: #000000a3;
-        padding: 6px;
-        color: white;
-        border-radius: 5px;
-        cursor: pointer;
-
-    }
     .ber_icon {
         display: block;
         margin-left: 15px;
@@ -26,6 +13,7 @@
         width: 42px;
         text-align: center;
     }
+
     .nav_links {
         position: absolute;
         background: white;
@@ -36,24 +24,32 @@
         min-width: 200px;
         display: none;
     }
+
     .nav_links ul li {
         display: block;
     }
+
+    .banner_content h1,
     .banner_content h2 {
         font-size: 35px;
     }
+
     .video_btn {
         width: 42%;
     }
+
     .reverse_btn_ {
         width: 40%;
     }
+
     .about_btn {
         width: 38%;
     }
+
     .single_service {
         width: 48.7%;
     }
+
     .apo_figure {
         display: none;
     }
